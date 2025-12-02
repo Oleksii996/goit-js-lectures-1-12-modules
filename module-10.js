@@ -1,2 +1,2 @@
-import"./assets/modulepreload-polyfill-B5Qt9EMX.js";/* empty css                      */const e=new Promise((o,r)=>{console.log("create promise"),setTimeout(()=>{o("promise resolved")},5e3)}),t=setInterval(()=>{console.log(e)},1e3);e.then(()=>{clearInterval(t),console.log("interval stopped")});
+import"./assets/modulepreload-polyfill-B5Qt9EMX.js";/* empty css                      */new Promise((o,n)=>{const e=Math.round(Math.random()*5e3)+2e3;console.log(e),setTimeout(()=>{e%2===0?o("Смачного!"):n("Поки не готово!")},e)}).then(o=>{console.log(o),console.log("Danke schön")}).catch(o=>{console.log(o),console.log("Ich bin nicht zufrieden")});
 //# sourceMappingURL=module-10.js.map
