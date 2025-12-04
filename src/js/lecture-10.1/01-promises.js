@@ -49,7 +49,7 @@
     });
 } */
 
-// Приклад з випадковим успіхом/помилкою
+/* // Приклад з випадковим успіхом/помилкою
 {
   const promiseExample = new Promise((resolve, reject) => {
     const randomNumber = Math.round(Math.random() * 5000) + 2000;
@@ -73,9 +73,9 @@
     .finally(() => {
       console.log('Дякую, що дочитали до кінця!');
     }); // finally виконається в будь-якому випадку
-}
+} */
 
-// Ланцюжки промісів
+/* // Ланцюжки промісів
 {
   const promise = new Promise((resolve, reject) => {
     console.log('Проміс стартував...');
@@ -109,7 +109,7 @@
     .catch(err => {
       console.error('Помилка:', err);
     });
-}
+} */
 
 /* // Задача, приклад. Ланцюжки промісів
 {
