@@ -26,7 +26,8 @@
 }
  */
 
-/* //Промисифікована функція
+/* 
+//Промисифікована функція
 {
   function createPromise(value, isPositive, delay) {
     const promise = new Promise((resolve, reject) => {
@@ -59,6 +60,7 @@
   p5.then(onFulfilled, onRejected);
 } */
 
+/* 
 //Масив промісів
 {
   function createPromise(value, isPositive, delay) {
@@ -92,4 +94,4 @@
   Promise.allSettled(arrPromises) //Повертає масив значень виконаних промісів (true or false)
     .then(values => console.log(values))
     .catch(error => console.log(error));
-}
+} */

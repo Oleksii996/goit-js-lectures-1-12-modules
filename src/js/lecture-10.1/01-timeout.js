@@ -1,4 +1,4 @@
-{
+/* {
   console.log(1);
   console.log(2);
 
@@ -15,4 +15,26 @@
 
   for (let i = 0; i < 10; i++) {}
   console.log(i);
+}
+//setTimeout - команда, яка працює лише у браузері. */
+
+// Функція + затримка
+{
+  const id1 = setTimeout(() => {
+    alert('Ваші дані було викрадено, надійшліть ваш пароль');
+  }, 2000);
+
+  const id2 = setTimeout(() => {
+    alert('Ваші дані було викрадено, надійшліть ваш пароль');
+  }, 2000);
+
+  const timeoutID = setTimeout(() => {
+    alert('Ваші дані було викрадено, надійшліть ваш пароль');
+  }, 2000);
+
+  console.log(timeoutID);
+
+  clearTimeout(timeoutID);
+  clearTimeout(id1);
+  clearTimeout(id2);
 }
